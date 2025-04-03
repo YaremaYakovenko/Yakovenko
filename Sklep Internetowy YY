@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportowy Sklep - Łódź</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Sportowy Sklep w Łodzi</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Strona Główna</a></li>
+            <li><a href="#">Produkty</a></li>
+            <li><a href="#">O Nas</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Twoje źródło energii i siły!</h2>
+    <p>Wysokiej jakości suplementy diety w najlepszych cenach. Sprawdź naszą ofertę!</p>
+</section>
+
+<section class="products">
+    <h2>Nasze Produkty</h2>
+    <div class="product">
+        <h3>Białko Whey 1000g</h3>
+        <img src="images/bialko.jpg" alt="Białko Whey">
+        <p>Wysokiej jakości białko dla sportowców. Idealne do budowania masy mięśniowej.</p>
+        <p>Cena: 150 PLN</p>
+    </div>
+    <!-- Дополнительные продукты -->
+</section>
+
+<section class="contact">
+    <h2>Kontakt</h2>
+    <p>Skontaktuj się z nami, jeśli masz jakiekolwiek pytania lub potrzebujesz porady.</p>
+    <p><strong>Adres:</strong> ul. Piotrkowska 45, 90-001 Łódź, Polska</p>
+    <p><strong>Telefon:</strong> +48 123 456 789</p>
+    <p><strong>E-mail:</strong> kontakt@sportowysklep.pl</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Sportowy Sklep w Łodzi | Wszystkie prawa zastrzeżone</p>
+</footer>
+
+</body>
+</html>
