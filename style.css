@@ -48,14 +48,19 @@ header nav ul li a:hover {
     color: white;
     text-align: center;
     padding: 100px 20px;
+    background-image: url('https://via.placeholder.com/1200x600'); /* Замените на изображение */
+    background-size: cover;
+    background-position: center;
 }
 
 .hero h2 {
     font-size: 36px;
+    margin-bottom: 10px;
 }
 
 .hero p {
     font-size: 18px;
+    margin-bottom: 20px;
 }
 
 .hero .btn {
@@ -136,3 +141,28 @@ header nav ul li a:hover {
 
 .about p {
     font-size: 18px;
+}
+
+/* Контакт */
+.contact {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+}
+
+/* Стили футера */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
