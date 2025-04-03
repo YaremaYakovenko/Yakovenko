@@ -9,104 +9,53 @@
 <body>
 
 <header>
-    <h1>Sportowy Sklep w Łodzi</h1>
-    <nav>
-        <ul>
-            <li><a href="#">Strona Główna</a></li>
-            <li><a href="#">Produkty</a></li>
-            <li><a href="#">O Nas</a></li>
-            <li><a href="#">Kontakt</a></li>
-        </ul>
-    </nav>
+    <div class="container">
+        <h1>Sportowy Sklep w Łodzi</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Strona Główna</a></li>
+                <li><a href="#">Produkty</a></li>
+                <li><a href="#">O Nas</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
 
 <section class="hero">
-    <h2>Twoje źródło energii i siły!</h2>
-    <p>Wysokiej jakości suplementy diety w najlepszych cenach. Sprawdź naszą ofertę!</p>
+    <div class="container">
+        <h2>Twoje źródło energii i siły!</h2>
+        <p>Wysokiej jakości suplementy diety w najlepszych cenach. Sprawdź naszą ofertę!</p>
+    </div>
 </section>
 
 <section class="products">
-    <h2>Nasze Produkty</h2>
-    <div class="product">
-        <h3>Białko Whey 1000g</h3>
-        <p>Wysokiej jakości białko dla sportowców. Idealne do budowania masy mięśniowej.</p>
-        <p>Cena: 150 PLN</p>
+    <div class="container">
+        <h2>Nasze Produkty</h2>
+        <div class="product">
+            <h3>Białko Whey 1000g</h3>
+            <p>Wysokiej jakości białko dla sportowców. Idealne do budowania masy mięśniowej.</p>
+            <p>Cena: 150 PLN</p>
+        </div>
+        <!-- Дополнительные продукты -->
     </div>
-    <!-- Дополнительные продукты -->
 </section>
 
 <section class="contact">
-    <h2>Kontakt</h2>
-    <p>Skontaktuj się z nami, jeśli masz jakiekolwiek pytania lub potrzebujesz porady.</p>
-    <p><strong>Adres:</strong> ul. Piotrkowska 45, 90-001 Łódź, Polska</p>
-    <p><strong>Telefon:</strong> +48 123 456 789</p>
-    <p><strong>E-mail:</strong> kontakt@sportowysklep.pl</p>
+    <div class="container">
+        <h2>Kontakt</h2>
+        <p>Skontaktuj się z nami, jeśli masz jakiekolwiek pytania lub potrzebujesz porady.</p>
+        <p><strong>Adres:</strong> ul. Piotrkowska 45, 90-001 Łódź, Polska</p>
+        <p><strong>Telefon:</strong> +48 123 456 789</p>
+        <p><strong>E-mail:</strong> kontakt@sportowysklep.pl</p>
+    </div>
 </section>
 
 <footer>
-    <p>&copy; 2025 Sportowy Sklep w Łodzi | Wszystkie prawa zastrzeżone</p>
+    <div class="container">
+        <p>&copy; 2025 Sportowy Sklep w Łodzi | Wszystkie prawa zastrzeżone</p>
+    </div>
 </footer>
 
 </body>
 </html>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
-header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-header nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-header nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-.hero {
-    background-color: #333; /* Цвет фона без изображения */
-    color: white;
-    text-align: center;
-    padding: 100px 20px;
-}
-
-.products {
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.product {
-    display: inline-block;
-    width: 30%;
-    margin-right: 20px;
-    background-color: white;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.contact {
-    padding: 50px 20px;
-    text-align: center;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
