@@ -29,7 +29,6 @@
     <h2>Nasze Produkty</h2>
     <div class="product">
         <h3>Białko Whey 1000g</h3>
-        <img src="images/bialko.jpg" alt="Białko Whey">
         <p>Wysokiej jakości białko dla sportowców. Idealne do budowania masy mięśniowej.</p>
         <p>Cena: 150 PLN</p>
     </div>
@@ -80,8 +79,7 @@ header nav ul li a {
 }
 
 .hero {
-    background: url('images/hero.jpg') no-repeat center center;
-    background-size: cover;
+    background-color: #333; /* Цвет фона без изображения */
     color: white;
     text-align: center;
     padding: 100px 20px;
